@@ -1,0 +1,30 @@
+label {
+    color: #333;
+}
+
+.btn-abedul-send {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    padding: 5px 40px;
+    line-height: 48px;
+    color: #fff;
+    background: #BB377D;
+    border-color: #BB377D;
+    display: inline-block;
+    border: 2px solid #BB377D;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 300ms linear 0s;
+}
+
+.btn-abedul-send:hover {
+    color: #FBD3E9;
+    box-shadow: 10px 10px 40px #BB377D;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}

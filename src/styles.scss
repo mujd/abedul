@@ -1,1 +1,138 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.abedul-color1 {
+    color: #BB377D !important;
+}
+
+.abedul-color2 {
+    color: #FBD3E9 !important;
+}
+
+.abedul-color3 {
+    color: #88379c !important;
+}
+
+.abedul-fondo1 {
+    color: #BB377D !important;
+}
+
+.abedul-fondo2 {
+    color: #FBD3E9 !important;
+}
+
+.btn-abedul-1 {
+    padding: 5px 40px;
+    line-height: 48px;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 300ms linear 0s;
+}
+
+.btn-abedul-1:hover {
+    font-weight: 700;
+    background: rgba(187, 55, 125, 0.493);
+    border-color: #BB377D;
+    color: #FBD3E9;
+    box-shadow: 10px 10px 40px #BB377D;
+}
+
+.btn-abedul-2 {
+    padding: 5px 40px;
+    line-height: 48px;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 300ms linear 0s;
+}
+
+.btn-abedul-2:hover {
+    font-weight: 700;
+    background: #1b1a1a69;
+    background: #BB377D;
+    border-color: #BB377D;
+    color: #FBD3E9;
+    box-shadow: 10px 10px 40px #FBD3E9;
+}
+
+.btn-abedul-3 {
+    font-size: 22px;
+    padding: 5px 40px;
+    line-height: 48px;
+    background: #BB377D;
+    color: #FBD3E9;
+    display: inline-block;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 300ms linear 0s;
+}
+
+.btn-abedul-3:hover {
+    border: 2px solid #FBD3E9;
+    color: #FBD3E9;
+    font-weight: 700;
+    box-shadow: 0px 0px 40px #FBD3E9;
+}
+
+.btn-abedul-4 {
+    font-size: 22px;
+    padding: 5px 40px;
+    line-height: 48px;
+    background: #88379c;
+    color: #FBD3E9;
+    display: inline-block;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 300ms linear 0s;
+}
+
+.btn-abedul-4:hover {
+    border: 2px solid #FBD3E9;
+    color: #FBD3E9;
+    font-weight: 700;
+    box-shadow: 0px 0px 40px #FBD3E9;
+}
+
+.cool-link-margin-top::after {
+    content: '';
+    display: block;
+    margin-top: -3px;
+    width: 0px;
+    height: 2px;
+    /* background: #fff; */
+    background: #FBD3E9;
+    transition: width .3s;
+}
+
+.cool-link-margin-top:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    /* background: #fff; */
+    background: #FBD3E9;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
